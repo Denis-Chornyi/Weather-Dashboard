@@ -18,6 +18,7 @@
             },
             "production": {
               "aot": true,
+              "baseHref": "/",
               "extractLicenses": true,
               "namedChunks": false,
               "optimization": true,
