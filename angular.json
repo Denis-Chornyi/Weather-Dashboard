@@ -29,7 +29,7 @@
           "options": {
             "baseHref": "/",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon-1.ico",
               {
                 "glob": "_redirects",
                 "input": "src",
