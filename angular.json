@@ -18,7 +18,7 @@
             },
             "production": {
               "aot": true,
-              "baseHref": "/my-app/",
+              "baseHref": "/",
               "extractLicenses": true,
               "namedChunks": false,
               "optimization": true,
@@ -27,7 +27,7 @@
             }
           },
           "options": {
-            "baseHref": "/my-app/",
+            "baseHref": "/",
             "assets": [
               "src/assets/favicon-v1.ico",
               {
