@@ -8,13 +8,12 @@ import { AddCityComponent } from "../add-city/add-city.component";
 import { WeatherData } from "../../models/weather.model";
 
 @Component({
-  selector: "app-weather-dashboard",
+  selector: "app-root",
   standalone: true,
   imports: [CommonModule, CityCardComponent, AddCityComponent],
   template: `
     <div class="min-h-screen bg-gray-100 p-4">
       <h1 class="text-3xl font-bold text-center mb-8">Weather Dashboard</h1>
-      <router-outlet></router-outlet>
       <app-add-city (cityAdd)="addCity($event)"></app-add-city>
 
       <div
