@@ -32,7 +32,7 @@
               "src/assets/favicon-v1.ico",
               {
                 "glob": "_redirects",
-                "input": "assets",
+                "input": "src/assets",
                 "output": "./"
               }
             ],
