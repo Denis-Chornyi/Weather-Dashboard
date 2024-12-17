@@ -14,6 +14,7 @@ import { WeatherData } from "../../models/weather.model";
   template: `
     <div class="min-h-screen bg-gray-100 p-4">
       <h1 class="text-3xl font-bold text-center mb-8">Weather Dashboard</h1>
+
       <app-add-city (cityAdd)="addCity($event)"></app-add-city>
 
       <div
